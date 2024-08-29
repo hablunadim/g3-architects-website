@@ -150,6 +150,22 @@ main > section{
     margin-bottom: 20px;
 }
 
+#experience-badeg{
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+#experience-year{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.features-arvhitect img{
+    width: 100%;
+}
+
 
 /* some facts related styles */
 
@@ -208,7 +224,8 @@ main > section{
 @media screen and (max-width: 576px) {
 
     .navbar,
-    .nav-links, 
+    .nav-links,
+    .features, 
     .teams {
         flex-direction: column;
     }
@@ -231,6 +248,11 @@ main > section{
     .our-features{
         margin-left: 20px;
     }
+
+    #experience-badeg{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
 }
 
 
@@ -238,7 +260,7 @@ main > section{
 /* medium size devuce */
 
 @media screen and (min-width:576px) and (max-width: 992px) {
-    .teams{
+    .teams, .features{
         flex-direction: column;
     }
     .our-features{
@@ -248,5 +270,9 @@ main > section{
         grid-template-columns: repeat(2,1fr);
         gap: 50px;
         justify-items: center;
+    }
+    #experience-badeg{
+        margin-top: 20px;
+        margin-left: 20px;
     }
 }
